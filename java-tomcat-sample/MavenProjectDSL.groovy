@@ -1,5 +1,5 @@
 job( "Firest-Maven-Project-Via-DSL" ) {
-    discriptio ("First Maven Project Create Using DSL ${new Date()}, on this date ")
+    discription ("First Maven Project Create Using DSL ${new Date()}, on this date ")
 scm{
     git("https://github.com/prakashparmardevops/Jenkins_Upgradev4.git", main)  
 }
