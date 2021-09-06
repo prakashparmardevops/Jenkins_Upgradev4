@@ -10,6 +10,6 @@ steps{
      maven('clean package', 'java-tomcat-sample/pom.xml')
 }
 publishers{
-    archiveArtifacts '**/*.jar'  
+    archiveArtifacts '**/*.war'  
 }
 }
