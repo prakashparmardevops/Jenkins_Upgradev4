@@ -7,7 +7,7 @@ triggers {
     scm('* * * * *')
 }
 steps{
-     maven ('clean package', 'java-tomcat-sample/pom.xml')
+     maven('clean package', 'java-tomcat-sample/pom.xml')
 }
 publishers{
     archiveArtifacts '**/*.jar'  
